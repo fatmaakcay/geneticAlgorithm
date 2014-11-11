@@ -2,6 +2,8 @@ geneticAlgorithm
 ================
 Fatma Akcay, Jay Chakravarty, Howard Zhang
 
+YouTube Video: https://www.youtube.com/watch?v=AjG0Jh3sgbk
+
 ABOUT: The objective of our project is to develop and evaluate a genetic algorithm that estimates coefficients of  a multiple linear regression. We plan to run this algorithm on data from self generated models in order to derive and compare the resulting regression against those models. Specifically, we plan to generate a set of data points {x1, x2,..., xn, f(x1,x2,...,xn)} and then run the algorithm on this set of data points in order to generate a regression whose accuracy can be evaluated by comparing it to f(x1,x2,...,xn). We will then conduct an analysis on the effect of changing certain variables on the accuracy and efficiency of our genetic algorithm.
 
 INSTRUCTIONS: We wrote and compiled our code in the CS50 appliance. Run make in the directory containing all of our code (Data.ml, Fit.ml, Gen.ml, Main.ml, Pop.ml and Makefile) in order to compile our main function along with all the modules it utilizes. Then run ./Main.native at the command-line in order to generate a text file,  “generation.txt”  which contains the average fitness values, best fitness values, coefficients and total time passed since the execution of the program for each generation. 
